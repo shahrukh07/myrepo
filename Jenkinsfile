@@ -16,18 +16,18 @@ date'''
           }
         }
 
-        stage('build dp') {
+        stage('12') {
           steps {
-            echo 'parallel deploy'
+            sh 'whoami'
           }
         }
 
       }
     }
 
-    stage('deploy') {
+    stage('dep') {
       steps {
-        sleep 5
+        echo 'asslamualaikum sarkar'
       }
     }
 
